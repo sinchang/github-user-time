@@ -28,6 +28,6 @@ module.exports = async function(username, token) {
 
     return { timezone, time }
   } catch (error) {
-    return error.message
+    throw new Error(error)
   }
 }

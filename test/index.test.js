@@ -26,8 +26,8 @@ test('sindresorhus', async () => {
   try {
     await githubUserTime('sindresorhus', API_TOKEN)
   } catch (error) {
-    expect(error).toEqual({
-      error: 'Request path contains unescaped characters'
-    })
+    expect(error.message).toEqual(
+      'TypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters'
+    )
   }
 })
