@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "poi index.html --serve",
+    "build": "poi index.html --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "github-user-time": "^1.0.0"
+  },
+  "devDependencies": {
+    "poi": "^12.5.5"
+  }
+}
