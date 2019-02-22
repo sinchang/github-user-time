@@ -11,7 +11,7 @@ test('username is valid', async () => {
   try {
     await githubUserTime(12, API_TOKEN)
   } catch (error) {
-    expect(error.message).toEqual('TypeError: Expected username to be string')
+    expect(error.message).toEqual('Expected username to be string')
   }
 })
 
