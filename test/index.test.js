@@ -15,6 +15,15 @@ test('username is valid', async () => {
   }
 })
 
+test('the location is empty', async () => {
+  jest.setTimeout(50000)
+  try {
+    await githubUserTime('knewzen', API_TOKEN)
+  } catch (error) {
+    expect(error.message).toEqual('Error: The location is empty')
+  }
+})
+
 test('sinchang', async () => {
   jest.setTimeout(50000)
   const res = await githubUserTime('sinchang', API_TOKEN)

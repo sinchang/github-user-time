@@ -11,6 +11,8 @@ module.exports = async function(username, token) {
       data: { location }
     } = await axios(`https://api.github.com/users/${username}`)
 
+    if (!location) throw new Error('The location is empty')
+
     const { data: geoRes } = await axios(
       `https://locationiq.org/v1/search.php?key=${token}&q=${location}&format=json`
     )
