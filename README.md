@@ -1,6 +1,6 @@
 # github-user-time
 
-[![NPM version](https://badgen.net/npm/v/github-user-time)](https://npmjs.com/package/github-user-time) [![NPM downloads](https://badgen.net/npm/dm/github-user-time)](https://npmjs.com/package/github-user-time) [![CircleCI](https://badgen.net/circleci/github/sinchang/github-user-time/master)](https://circleci.com/gh/sinchang/github-user-time/tree/master) [![codecov](https://codecov.io/gh/sinchang/github-user-time/branch/master/graph/badge.svg)](https://codecov.io/gh/sinchang/github-user-time)
+[![NPM version](https://badgen.net/npm/v/github-user-time)](https://npmjs.com/package/github-user-time) [![NPM downloads](https://badgen.net/npm/dm/github-user-time)](https://npmjs.com/package/github-user-time) [![CircleCI](https://circleci.com/gh/sinchang/github-user-time.svg?style=shield)](https://circleci.com/gh/sinchang/github-user-time) [![codecov](https://codecov.io/gh/sinchang/github-user-time/branch/master/graph/badge.svg)](https://codecov.io/gh/sinchang/github-user-time)
 
 ## Install
 
