@@ -2877,10 +2877,10 @@ get-value@^2.0.3, get-value@^2.0.6:
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
   integrity sha1-3BXKHGcjh8p2vTesCjlbogQqLCg=
 
-github-user-time@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/github-user-time/-/github-user-time-1.0.0.tgz#afea28e4edf2fec39ac1eb456a2ec604c36f8d0d"
-  integrity sha512-JUZdpzN16Xef7F1um4z1n4fprNGzEFaMTek3u/PhXO5LuvJAATrmhB4hW+oDEW1lV0QtsNapoSjFNYW5NxFraQ==
+github-user-time@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/github-user-time/-/github-user-time-1.0.1.tgz#c2e15b4f440846d2e0e585200f2cb258a3b8057c"
+  integrity sha512-7qXs+qpaxL5PD35Hpn1+tI07cwKHpGKc9GuqEvldyu7lEpsEypGBs7G1hV32+Iz4Qi8QrBuRl/PCpBnQ615Epw==
   dependencies:
     axios "^0.18.0"
     moment-timezone "^0.5.23"

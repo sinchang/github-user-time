@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "github-user-time": "^1.0.0"
+    "github-user-time": "^1.0.1"
   },
   "devDependencies": {
     "poi": "^12.5.5"
