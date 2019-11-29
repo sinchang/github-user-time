@@ -12,7 +12,7 @@
     "test:local": "jest",
     "lint": "xo",
     "prepublishOnly": "npm run build",
-    "build": "bili",
+    "build": "bili --format cjs,es,umd,umd-min",
     "semantic-release": "npm run build && semantic-release"
   },
   "repository": {

@@ -29,14 +29,3 @@ test('sinchang', async () => {
   const res = await githubUserTime('sinchang', API_TOKEN)
   expect(res.timezone).toEqual('Asia/Shanghai')
 })
-
-test('sindresorhus', async () => {
-  jest.setTimeout(50000)
-  try {
-    await githubUserTime('sindresorhus', API_TOKEN)
-  } catch (error) {
-    expect(error.message).toEqual(
-      'TypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters'
-    )
-  }
-})
